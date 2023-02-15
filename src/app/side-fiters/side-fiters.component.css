@@ -1,0 +1,100 @@
+.side-filters-div {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(43, 42, 42);
+    width: 23%;
+    height: fit-content;
+    border: 6px solid rgb(110, 137, 102);
+    border-radius: 10px;
+}
+
+.container {
+    width: 100%;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+input#search {
+    background-size: 5px 5px;
+    text-indent: 25px;
+    border-radius: 12px;
+    border: 2px solid black;
+    width: 190px;
+    height: 26px;
+    font-size: 18px;
+    background-image: url("https://publicdomainvectors.org/tn_img/1382519138.webp");
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: 7px;
+}
+
+#search:focus {
+    background-image: none;
+}
+
+.line {
+    height: 4px;
+    background-color: bisque;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+}
+
+.filters {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.genre-filter {
+    display: flex;
+    justify-content: center;
+}
+
+.year-filter {
+    display: flex;
+    justify-content: center;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.title p {
+    color: white;
+    font-size: 22px;
+}
+
+select {
+    border-radius: 12px;
+    width: 123px;
+    height: 28px;
+    font-size: 15px;
+    text-indent: 10px;
+}
+
+.filter-button {
+    display: flex;
+    justify-content: center;
+}
+
+.filter-button button {
+    background-color: bisque;
+    border-radius: 10px;
+    width: 108px;
+    height: 30px;
+    font-size: 17px;
+}

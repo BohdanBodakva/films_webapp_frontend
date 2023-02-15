@@ -1,0 +1,40 @@
+<div class="side-filters-div">
+    <div class="container">
+        <div class="search-bar">
+            <div class="input-div">
+                <input id="search" name="search" type="text" placeholder="Search films">
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="filters">
+            <div class="title">
+                <p>Filters</p>
+            </div>
+            <form class="filter-form">
+                <div class="genre-filter margin-bottom">
+                    <select>
+                        <option value="">
+                            Select genre
+                        </option>
+                        <option *ngFor="let genre of filmGenres" value="genre">
+                            {{genre}}
+                        </option>
+                    </select>
+                </div>
+                <div class="year-filter margin-bottom">
+                    <select>
+                        <option value="">
+                            Select year
+                        </option>
+                        <option *ngFor="let year of filmYears" value="year">
+                            {{year}}
+                        </option>
+                    </select>
+                </div>
+                <div class="filter-button">
+                    <button type="submit">Search</button>
+                </div>
+            </form>            
+        </div>
+    </div>
+</div>
